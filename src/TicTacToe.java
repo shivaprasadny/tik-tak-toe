@@ -106,6 +106,7 @@ public class TicTacToe {
     }
 
     // Check if board is full (draw)
+    //l
     public static boolean isDraw() {
         for (int i = 0; i < 9; i++) {
             if (board[i] != 'X' && board[i] != 'O') {
